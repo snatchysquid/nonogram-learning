@@ -6,7 +6,7 @@ import pickle
 
 TRAIN_PERCENT = 0.9
 
-
+# Neural Network or some added comment bla bla
 def create_model(checkpoint_path=""):
     # autoencoder style, just to see if this works
     model = keras.Sequential([
